@@ -1,5 +1,6 @@
 ﻿using Docnet.Core;
 using Docnet.Core.Models;
+using Docnet.Core.Readers;
 
 namespace ConsoleApp1
 {
@@ -7,13 +8,13 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            using (var docReader = DocLib.Instance.GetDocReader(@"C:\Temp\EMegane.pdf", new PageDimensions()))
+            using (IDocReader docReader = DocLib.Instance.GetDocReader(@"C:\Temp\EMegane.pdf", new PageDimensions()))
             {
-                for (var i = 0; i < docReader.GetPageCount(); i++)
+                for (int i = 0; i < docReader.GetPageCount(); i++)
                 {
-                    using (var pageReader = docReader.GetPageReader(i))
+                    using (IPageReader pageReader = docReader.GetPageReader(i))
                     {
-                        var text = pageReader.GetText();
+                        string text = pageReader.GetText();
                         Console.WriteLine(text);
                     }
                 }
