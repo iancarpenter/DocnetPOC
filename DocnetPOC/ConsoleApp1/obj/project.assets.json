@@ -1,0 +1,152 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Docnet.Core/2.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Docnet.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Docnet.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux/native/LICENSE": {
+            "assetType": "native",
+            "rid": "linux"
+          },
+          "runtimes/linux/native/pdfium.so": {
+            "assetType": "native",
+            "rid": "linux"
+          },
+          "runtimes/osx/native/LICENSE": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/osx/native/pdfium.dylib": {
+            "assetType": "native",
+            "rid": "osx"
+          },
+          "runtimes/win-x64/native/LICENSE": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x64/native/pdfium.dll": {
+            "assetType": "native",
+            "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/LICENSE": {
+            "assetType": "native",
+            "rid": "win-x86"
+          },
+          "runtimes/win-x86/native/pdfium.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Docnet.Core/2.3.1": {
+      "sha512": "KZ7JZOT5aNaymbQqN7XfDDUMCmlX4edgxkGRp92Rwj3H1oHgJw8w9ovpCwXbFpCbD0B5gtjT4d7id6ySOWgT5w==",
+      "type": "package",
+      "path": "docnet.core/2.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net45/Docnet.Core.targets",
+        "docnet.core.2.3.1.nupkg.sha512",
+        "docnet.core.nuspec",
+        "icon.png",
+        "lib/netstandard2.0/Docnet.Core.dll",
+        "lib/netstandard2.0/Docnet.Core.xml",
+        "runtimes/linux/native/LICENSE",
+        "runtimes/linux/native/pdfium.so",
+        "runtimes/osx/native/LICENSE",
+        "runtimes/osx/native/pdfium.dylib",
+        "runtimes/win-x64/native/LICENSE",
+        "runtimes/win-x64/native/pdfium.dll",
+        "runtimes/win-x86/native/LICENSE",
+        "runtimes/win-x86/native/pdfium.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Docnet.core >= 2.3.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Ian\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Ian\\Documents\\GitHub\\DocnetPOC\\DocnetPOC\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectName": "ConsoleApp1",
+      "projectPath": "C:\\Users\\Ian\\Documents\\GitHub\\DocnetPOC\\DocnetPOC\\ConsoleApp1\\ConsoleApp1.csproj",
+      "packagesPath": "C:\\Users\\Ian\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ian\\Documents\\GitHub\\DocnetPOC\\DocnetPOC\\ConsoleApp1\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Ian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Docnet.core": {
+            "target": "Package",
+            "version": "[2.3.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

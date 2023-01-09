@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "M2FM8CMRox/dWwA5cT73nwHBY0Vq6u7k/11nBRGo5Plapi7bIu4jjSA5zSfitUpKLvfqzzybIm6n920pT4gqnw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ian\\Documents\\GitHub\\DocnetPOC\\DocnetPOC\\ConsoleApp1\\ConsoleApp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ian\\.nuget\\packages\\docnet.core\\2.3.1\\docnet.core.2.3.1.nupkg.sha512"
+  ],
+  "logs": []
+}
